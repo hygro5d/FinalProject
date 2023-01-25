@@ -1,0 +1,173 @@
+/* to set styling for H1 H2 and p tag*/
+H1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder!important;
+}
+H2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold!important;
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+/* set bg color for the body*/
+body{
+    background-color: #FFF5EE!important;
+}
+
+#carousel
+{
+    margin-top:100px;
+}
+
+/*  1. to style the navbar by making it sticky at top 
+    2. to add bg image 
+    3. to remove additional padding
+*/
+
+
+/* to style the carousel shop now button */
+#shopNowBtn{
+    position: absolute;
+    top:85%;
+    bottom:auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(177, 127, 168);
+    color: rgb(88, 4, 4);
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+/*styling 2nd shop now btn*/
+#shopNowBtn2{
+    position: absolute;
+    background-color: rgb(177, 127, 168);
+    color: rgb(88, 4, 4);
+    font-size: 16px;
+    left:40%;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+
+/* to provide padding for About BakesByMates Description image:*/ 
+#bakerImage{
+    padding:60px;
+    margin-left:60px;
+}
+
+/* to add padding to the description*/
+#descriptionBody{
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:185px;
+    text-align:justify;
+}
+
+/* to add padding for the delivery*/
+#delivery-left{
+    
+    padding-left: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 26px;
+    border-style:solid;
+    border-left: none;
+    border-top:none;
+    border-bottom: none;
+    text-align: center;
+}
+
+/*styling self collection section*/
+#selfcollection-right{
+    padding-top: 10px;
+    text-align: center;
+}
+#selfcollect-terms{
+    font-size: 14px;
+}
+
+/*footer wording*/
+.py-3>.text-center{
+    font-size: smaller;
+}
+
+/* to style the carousel shop now button */
+#shopNowBtn{
+    position: absolute;
+    top:85%;
+    bottom:auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(177, 127, 168);
+    color: rgb(88, 4, 4);
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+/* media responsive for right border for the delivery portion*/
+
+@media screen and (max-width: 992px) {
+    #delivery-left {
+      border-right:none;
+      border-bottom: solid;
+      border-color: lightgray;
+      margin-bottom: 0px;
+    }
+  }
+
+  /*
+  media responsive for :
+  1. the text of the delivery body
+  2.the description body
+  3. shop now button at carousel to disappear when screen is small
+  4. when screen is md to xl to display width as 50% of vh
+  25% to centralise it
+  */
+@media screen and (max-width: 768px) {
+    #delivery-left
+    {
+    padding-left:10px;
+    }
+    #delivery-body {
+    font-size: 16px;
+    }
+    #descriptionBody{
+    padding-left:10px;
+    padding-top:0px;
+
+    }
+    #descriptionBody h1{
+    text-align: center;
+    }
+
+    #descriptionBody p {
+
+    font-size: 16px;
+    text-align: center;
+    }
+
+    #shopNowBtn{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .carousel{
+        width:75%;
+        left:12.5%;
+        height: 600px;
+    }
+    .carousel-inner>.carousel-item>img
+    {
+        height: 600px;
+    }
+}
+

@@ -1,0 +1,24 @@
+.navbar {
+
+    height:max-content;
+    background-image: url("/image/pinkbackground.png");
+    position: fixed!important;
+    width:100%;
+    top:0;
+    z-index: 4;
+}
+
+.nav-item
+{
+    font-size: 17px; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-item .nav-link{
+    color:rgb(10, 10, 10) ;
+}
+.nav-itemLO{
+    cursor: pointer;
+}
+
+

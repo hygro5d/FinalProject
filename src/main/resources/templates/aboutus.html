@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/form2.css"/>
+    <link rel="stylesheet" href="css/aboutus.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!--navbar-->
+<div th:insert="fragments/navbar.html :: navbar">
+</div>
+<!--end of nav bar-->
+
+<!--Start of About Us section-->
+<div class="form-wrapper">
+    <section id="form">
+    </section>
+    <div id="forms">
+        <h1 class="" id="about-us">About Us</h1>
+        <p class="description">BakesByMates is a home-based bakery. We offer artisanal bakes handcrafted with quality ingredients. Every pastry and baked good that leaves our kitchen is encompassed with our pride and dedication. We keep our baking batches small to ensure freshness and quality.<br>
+            <br>
+            Our recipes are meticulously taste-tested and tailored to local palates, meaning that they are lower in sugar, moist and tender. We also offer a range of healthier cake options for those with special dietary requirements - as purveyors of cake, we strive to offer something delicious for everyone.<br>
+            <br>
+            We craft every bake to be a little unique - just like you!</p>
+    </div>
+</div>
+
+<section id="homepage-category-section">
+    <h1 class="text-gradient mb-4 our-team rmv-margin">Meet the Team</h1>
+    <div id="card-grid">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="card category-card mb-3">
+                    <img src="image/alvin.jpeg" alt="Alvin">
+                    <h2>Alvin</h2>
+                    <p class="px-2">"I am interested in technology especially mobile phones and I have always wanted to stepped into the tech industry. However, my lack of prior knowledge and qualifications deters me. I am thankful that Generation SG has provided me with this opportunity to pursue something of my interest!"</p>
+                    <div class="profile-links">
+                        <a href="https://github.com/Alvin-2505" target="_blank"><i class="fab fa-github-square"></i></i></a>
+                        <a href="http://www.linkedin.com/in/alvin-lim-25905a184" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="card category-card mb-3">
+                    <img src="image/shermaine.jpeg" alt="Shermaine">
+                    <h2>Shermaine</h2>
+                    <p class="px-2">"Currently attending Boot Camp to be a Software Developer. Passionate about learning and creating solutions to complex but life changing problems with a desire to make a difference."</p>
+                    <div class="profile-links">
+                        <a href="https://github.com/thisissher" target="_blank"><i class="fab fa-github-square"></i></i></a>
+                        <a href="https://www.linkedin.com/in/shermaine-t-674925112/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="card category-card mb-3">
+                    <img src="image/daniel.jpeg" alt="Daniel">
+                    <h2>Daniel</h2>
+                    <p class="px-2">"Computing is downright overwhelming for a guy from aviation industry, totally elated that I chose Junior Full Stack Developer as a career shift after these 2 over months of self-discipline going thru countless online tutorials learning the cutting edge technology that shapes the world. Nevertheless, it’s a worthwhile aspiration!"</p>
+                    <div class="profile-links">
+                        <a href="https://github.com/DanielTang0812" target="_blank"><i class="fab fa-github-square"></i></i></a>
+                        <a href="https://www.linkedin.com/in/alvin-lim-25905a184/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3">
+                <div class="card category-card mb-3">
+                    <img src="image/fadhi.png" alt="Fadhi">
+                    <h2>Fadhi</h2>
+                    <p class="px-2">"An aspiring software developer and professional foodie. I am very passionate about technologies, social issues and pop culture. Believing one should change their world in a way that’s good for the world."</p>
+                    <div class="profile-links">
+                        <a href="https://github.com/hygro5d" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/faidhi-amran/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--end of about us section-->
+    <div>
+                <!--footer-->
+        <div th:insert="fragments/footer.html :: footer"></div>
+                <!--End of Footer-->
+    </div>
+
+</body>
+</html>

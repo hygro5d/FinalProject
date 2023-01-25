@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    margin: 20px 20px;
+}
+.display-4
+{
+    margin-top:125px;
+    text-align:center;
+}
+.lead
+{
+    text-align: center;
+}
+
+.card-img-top
+{
+height: 350px;
+}
+
